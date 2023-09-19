@@ -34,22 +34,24 @@ body {
     background-color: #6a43ff;
     color: #fff;
     border: 0.1rem solid #9f82fe;
+    border-radius: 0.3rem;
     margin-top: 0rem;
     text-align: center;
     font-size: 2.5rem;
-    width: 100%;
-    box-sizing: border-box;
-    max-width: 10rem;
-    width: 5rem;
-
+    width: 6rem
   }
   
-
-.topSection input[type="number"]::placeholder {
+  .topSection input[type="number"]::placeholder {
     color: lightgray;
-    font-size: 0.8rem;
-    font-weight: 700;
+    font-size: 1rem;
+    
 }
+
+  #convertBtn {
+    width: 6.5rem;
+  }
+
+
 
 /* .bottomSection {
 
